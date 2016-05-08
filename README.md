@@ -27,7 +27,6 @@ Bootstrap
 Firebase
 Filestack
 jQuery
-jsPDF
 MomentJS
 webpack
 webpack-dev-server
