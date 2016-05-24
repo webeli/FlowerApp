@@ -6,12 +6,14 @@ var uirouter = require('angular-ui-router');
 var Firebase = require('firebase');
 var angularfire = require('angularfire');
 var angularanimate = require('angular-animate');
+var angulararia = require('angular-aria');
+var angularmaterial = require('angular-material');
 require('angular-moment');
 
 /*
  ** App
  */
-var app = angular.module('app', ['ui.router', 'firebase', 'ngAnimate', 'angularMoment']);
+var app = angular.module('app', ['ui.router', 'firebase', 'ngAnimate', 'angularMoment', 'ngMaterial']);
 
 /*
  ** Run & Config
