@@ -1,13 +1,13 @@
 /*
  ** Dependencies
  */
+var angularmaterial = require('angular-material');
+var angulararia = require('angular-aria');
 var angular = require('angular');
 var uirouter = require('angular-ui-router');
 var Firebase = require('firebase');
 var angularfire = require('angularfire');
 var angularanimate = require('angular-animate');
-var angulararia = require('angular-aria');
-var angularmaterial = require('angular-material');
 require('angular-moment');
 
 /*
