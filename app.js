@@ -1,8 +1,6 @@
 /*
  ** Dependencies
  */
-var angularmaterial = require('angular-material');
-var angulararia = require('angular-aria');
 var angular = require('angular');
 var uirouter = require('angular-ui-router');
 var Firebase = require('firebase');
@@ -13,7 +11,7 @@ require('angular-moment');
 /*
  ** App
  */
-var app = angular.module('app', ['ui.router', 'firebase', 'ngAnimate', 'angularMoment', 'ngMaterial']);
+var app = angular.module('app', ['ui.router', 'firebase', 'ngAnimate', 'angularMoment']);
 
 /*
  ** Run & Config
@@ -33,6 +31,7 @@ require('./src/services/AppServices')(app);
  ** Controllers
  */
 require('./src/app/Home/HomeController')(app);
+require('./src/app/Products/ProductsController')(app);
 
 /*
  ** Styles
